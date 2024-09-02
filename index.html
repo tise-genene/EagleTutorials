@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Eagle Tutorials</title>
+  <meta name="title" content="Eagle">
+  <meta name="description" content="This is a Eagle Tutoring agency Website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/eagle-logo01.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/eagle-hero.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/eagle-logo.png" width="100" height="40" alt="Eagle home" class="logo-light">
+
+        <img src="./assets/images/eagle-logo.png" width="100" height="40" alt="Eagle home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/eagle-logo.png" width="100" height="40" alt="Eagle home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Solutions</a>
+          </li>
+
+          <li>
+            <a href="#tutors" class="navbar-link">Tutors</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://forms.gle/yRfe2JxqqhjY8kTD7" class="btn btn-primary" target="_blank">Became Tutor</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero has-bg-image" aria-label="home" 
+      style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Achieve Academic Excellence with Expert Tutors!</h1>
+
+            <p class="hero-text">
+              Personalized home tutoring and online programming courses for KG-12, university, and beyond. Learn from the best and
+              unlock your full potential with #Eagle Tutorials Services!
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="https://forms.gle/yRfe2JxqqhjY8kTD7" class="btn btn-primary" target="_blank">Join For Free</a>
+
+              <a href="#tutors" class="btn btn-outline">Find Tutor</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/eagle-hero.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/eagle-about.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play Eagle intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/eagle-logo.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="services">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Provide?</p>
+
+          <h2 class="h2 section-title">
+            Our Offerings.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">1. KG-12 Home Tutoring!</h3>
+                <p class="card-text">
+                  Our expert tutors provide customized, one-on-one tutoring for students from Kindergarten to Grade 12.</p>
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">2. University-Level Tutoring!</h3>
+
+                <p class="card-text">
+                Advance your academic journey. Get specialized tutoring for university courses across various disciplines.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">3. Programming & Coding Training!</h3>
+                <p class="card-text">
+                Join our coding and programming training sessions, led by experienced developers. 
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">4. Online Programming Courses!</h3>
+
+                <p class="card-text">
+                High-quality content and live sessions to gain in-demand tech
+                skills from the comfort of your home.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We provide tailored educational solutions for every student.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <span class="span h5">Experienced Tutors:</span>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                  Our team of qualified educators, developers, and trainers ensures the highest standard of
+                  instruction.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <span class="span h5">Personalized Support:</span>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Enjoy one-on-one attention and customized lessons that cater to each student's unique needs.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <span class="span h5">Flexible Learning Options:</span>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Choose between home tutoring or online courses to suit your schedule and preferences.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section id="projects" class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/eagle-logo.png" width="600" height="331" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We simplify your educational journey, providing you with the support you need to excel.
+            </h2>
+
+            <p class="section-text">
+              At Eagle Tutorials Services, we offer a seamless educational experience that takes the stress out of learning.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Personalized Tutoring Plans.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Expert Instruction.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Flexible Learning Formats.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Comprehensive Support.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+<!-- 
+        - #PROJECT
+      -->
+
+<section id="tutors" class="section project" aria-labelledby="project-label">
+  <div class="container">
+
+    <p class="section-subtitle" id="project-label">Successful Tutors</p>
+
+    <h2 class="h2 section-title">Meet some of our Outstanding Tutors</h2>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="project-card">
+
+          <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+            <img src="./assets/images/gene.jpg" width="560" height="350" loading="lazy"
+              alt="Ligula tristique quis risus" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">1. Genene Tise</a>
+            </h3>
+
+            <p class="card-text">
+              Specializing in coding and programming, Genene Tise has empowered students to develop essential tech skills, guiding
+              them to become confident and proficient in the digital world.
+            </p>
+
+            <ul class="card-meta-list">
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                <time class="meta-text" datetime="2022-04-14">Since 2022</time>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                <span class="meta-text">Coding Made Easy with Genene</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="project-card">
+
+          <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+            <img src="./assets/images/eden.jpg" width="560" height="350" loading="lazy"
+              alt="Nullam id dolor elit id nibh" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">2. Eden Yohannes</a>
+            </h3>
+
+            <p class="card-text">
+              Focused on young learners, Eden Yohannes has a remarkable ability to connect with kids and make learning fun and
+              engaging, laying a strong foundation for their future education.
+            </p>
+
+            <ul class="card-meta-list">
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                <time class="meta-text" datetime="2022-03-29">From 2023</time>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                <span class="meta-text">Learning is Fun with Eden</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="project-card">
+
+          <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+            <img src="./assets/images/chere.jpg" width="560" height="350" loading="lazy"
+              alt="Ultricies fusce porta elit" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+
+            <h3 class="h3">
+              <a href="#" class="card-title">3. Cherinet Woyesa</a>
+            </h3>
+
+            <p class="card-text">
+              Dedicated to preparatory students, Cherinet Woyesa’s effective tutoring methods have helped students excel in their
+              final years, preparing them thoroughly for higher education.
+            </p>
+
+            <ul class="card-meta-list">
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                <time class="meta-text" datetime="2022-02-26">Since 2024</time>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                <span class="meta-text">Excel in Prep with Cherinet</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+      <ul class="grid-list">
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/beke.jpg" width="560" height="350" loading="lazy" alt="Ligula tristique quis risus"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">4. Bekalu Teketel</a>
+              </h3>
+      
+              <p class="card-text">
+                An expert in SAT and TOEFL preparation, Bekalu Teketel has guided numerous students to achieve outstanding results,
+                equipping them with the strategies and confidence needed for success.</p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-04-14">Starting From 2022</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                  <span class="meta-text">Ace SAT & TOEFL with Bekalu</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/minte.jpg" width="560" height="350" loading="lazy" alt="Nullam id dolor elit id nibh"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">5. Mintesnot Tesfaye</a>
+              </h3>
+      
+              <p class="card-text">
+                Mintesnot Tesfaye’s commitment to personalized tutoring has helped many students reach their full potential, fostering
+                both academic growth and self-confidence.
+              </p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-03-29">From 2023</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="meta-text">Achieve More with Mintesnot</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/joo.jpg" width="560" height="350" loading="lazy" alt="Ultricies fusce porta elit"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">6. Yohannes Kefale</a>
+              </h3>
+      
+              <p class="card-text">
+                Dedicated to preparatory students, Cherinet Woyesa’s effective tutoring methods have helped students excel in
+                their final years, preparing them thoroughly for higher education.
+              </p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-02-26">Since 2021</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="meta-text">Unlock Your Potential with Yohannes</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+      </ul>
+
+      <ul class="grid-list">
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/habte.jpg" width="560" height="350" loading="lazy" alt="Ligula tristique quis risus"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">7. Habtamu Debel</a>
+              </h3>
+      
+              <p class="card-text">Habtamu Debel is committed to guiding students toward academic excellence through structured learning plans
+              and consistent support. His goal is to help students not just succeed but excel in their educational pursuits.
+            </p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-04-14">Starting From 2022</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                  <span class="meta-text">Achieve Academic Excellence with Habtamu</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/mihret.jpg" width="560" height="350" loading="lazy" alt="Nullam id dolor elit id nibh"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">8. Mihret Fekadu</a>
+              </h3>
+      
+              <p class="card-text">Mihret Fekadu excels in helping students master foundational concepts, ensuring a strong base for future
+                learning. Her patient and thorough approach makes complex topics easy to understand, encouraging steady academic growth.
+              </p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-03-29">From 2023</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="meta-text">Master the Basics with Mihret</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="project-card">
+      
+            <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+              <img src="./assets/images/mekd.jpg" width="560" height="350" loading="lazy" alt="Ultricies fusce porta elit"
+                class="img-cover">
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3">
+                <a href="#" class="card-title">9. Mekdes Fantahun</a>
+              </h3>
+      
+              <p class="card-text">Mekdes Fantahun is passionate about empowering students through tailored teaching methods that cater to
+                individual learning styles. Her focus is on fostering a deep understanding of subjects while building confidence and
+                enthusiasm for learning.
+              </p>
+      
+              <ul class="card-meta-list">
+      
+                <li class="card-meta-item">
+                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      
+                  <time class="meta-text" datetime="2022-02-26">Since 2021</time>
+                </li>
+      
+                <li class="card-meta-item">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+      
+                  <span class="meta-text">Empower Your Learning Journey with Mekdes</span>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+      </ul>
+
+
+  </div>
+</section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section id="blog" class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">1000+</span>
+
+                <span class="span">Successful Tutoring Sessions</span>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">100+</span>
+
+                <span class="span">Satisfied Students</span>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">200+</span>
+
+                <span class="span">Qualified Tutors</span>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">20+</span>
+
+                <span class="span">Courses Delivered</span>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      
+            
+      <!-- 
+        - #CTA
+      -->
+        <br>
+        <br>
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+          Join Our Telegram Community and Stay Updated!
+          </h2>
+
+          <a href="https://t.me/Eagle_Tutorials_Service" class="btn btn-primary">Join Community</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/eagle-logo.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+           &copy; Eagle Tutorials Services. <br> Addis Ababa, Ethiopia <br> All rights reserved.
+        </p>
+        
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61554015280502" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/company/87106485/admin/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkBbPsLRGR6CjT5HPHe6Qjw%3D%3D" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/eagletutorialsservices?igsh=MTFhb2Y1bzR3cGp5NQ==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/@tisetube1?si=TYFHlJ1f-bD7ERDi" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@eagletutorials.com" class="footer-link">info@eagletutorials.com</a>
+        </li>
+
+        <li>
+          <a href="tel:0932508910" class="footer-link">👉+251932508910</a>
+          <a href="tel:0914731746" class="footer-link">👉+251914731746</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About</a>
+        </li>
+
+        <li>
+          <a href="#services" class="footer-link">Services</a>
+        </li>
+
+        <li>
+          <a href="#tutors" class="footer-link">Tutors</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Need a Tutor for Your Child?</p>
+
+        <p class="footer-text">
+          Contact us now to discuss how we can help!
+        </p>
+
+        <form action="" class="input-wrapper">
+          <a href="https://t.me/eagleconsult" class="btn btn-primary" target="_blank">Contact Us Now</a> 
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
